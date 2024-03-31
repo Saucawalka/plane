@@ -1,0 +1,36 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    overflow: hidden;
+}
+.God{
+    position: relative;
+    top: -295px;
+}
+.Angel{
+    margin: -300px 0px 0px 0px;
+}
+.plane{
+    margin: -450px 0px 0px 1950px;
+    animation: rotate 15s linear 3s forwards infinite;
+}
+@keyframes rotate{
+ 0%{ transform: translate(300px);}
+ 25%{
+    transform: translate(-1000px, -100px) rotate(5deg);
+}
+50%{
+    transform: translate(-1400px, -200px) rotate(10deg);
+}
+
+75%{
+    transform: translate(-1900px, -300px) rotate(15deg);
+}
+100%{
+    transform: translate(-2500px, -500px) rotate(20deg);
+}
+}
